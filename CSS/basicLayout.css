@@ -1,0 +1,122 @@
+*{
+    background-color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
+body{
+    user-select: none;
+    word-break: keep-all;
+}
+
+wrap{
+    overflow: hidden;
+    min-width: 1190px;
+}
+
+div{
+    display : block;
+}
+
+
+/* header */
+
+.header{
+    /* position: relative; */
+}
+
+.header .logo_main{
+    /* position : relative; */
+    margin-top: 60px;
+    text-align: center;
+}
+
+.header .nav_bar{
+    /* position : relative; */
+    margin: 30px 0;
+    height : auto;
+    align-items: center;
+    text-align: center;
+}
+
+.header .nav_list{
+    display : inline-block;
+}
+
+.header .nav_list_item{
+    display: inline-flex;
+    padding: 0 50px;
+}
+
+.header .nav_list_item :hover{
+    cursor : pointer;
+}
+
+.header .search_bar{
+    /* position : relative; */
+    width:700px;
+    height:43px;
+    background-color: green;
+    margin: 0 auto ;
+}
+
+.header .search{
+    float : right;
+    width : 25px;
+    height : 25px;
+    text-align: center;
+    padding : 9px 0;
+    margin-right: 7px;
+    background-color: red;
+}
+
+.header .search:hover{
+    cursor : pointer;
+}
+
+/* contanter */
+.container{
+    height : 1200px;
+}
+
+/* footer */
+
+.footer{
+    display : flex;
+}
+
+.footer .info{
+    flex : 1;
+    padding : 50px 0;
+}
+
+.footer .info > div{
+    margin-left : 200px;
+}
+
+.footer .info_bar{
+    display : inline-block;
+}
+
+.footer .info_item{
+    display: inline-flex;
+    padding-right:50px;
+}
+
+.footer .more{
+    flex:1;
+    padding : 60px 0 40px 0;
+}
+
+.footer .more_bar{
+    display : inline-block;
+}
+
+.footer .more_item{
+    display: inline-flex;
+    padding-right:50px;
+}
