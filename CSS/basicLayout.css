@@ -14,6 +14,7 @@ body{
 }
 
 wrap{
+    /* position: absolute; */
     overflow: hidden;
     min-width: 1190px;
 }
@@ -45,6 +46,7 @@ div{
 
 .header .nav_list{
     display : inline-block;
+    font-size: 18px;
 }
 
 .header .nav_list_item{
@@ -61,7 +63,12 @@ div{
     width:700px;
     height:43px;
     background-color: green;
-    margin: 0 auto ;
+    /* margin: 0 auto ; */
+
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 54px;
+    margin: 30px auto 30px auto;
 }
 
 .header .search{
@@ -80,13 +87,15 @@ div{
 
 /* contanter */
 .container{
-    height : 1200px;
+    height : 900px;
+    /* position: relative; */
 }
 
 /* footer */
 
 .footer{
     display : flex;
+    /* position: relative; */
 }
 
 .footer .info{
