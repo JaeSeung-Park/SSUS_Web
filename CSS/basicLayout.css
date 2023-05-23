@@ -46,7 +46,7 @@ div{
 
 .header .nav_list{
     display : inline-block;
-    font-size: 18px;
+    
 }
 
 .header .nav_list_item{
@@ -78,7 +78,6 @@ div{
     text-align: center;
     padding : 9px 0;
     margin-right: 7px;
-    background-color: red;
 }
 
 .header .search:hover{
@@ -86,10 +85,7 @@ div{
 }
 
 /* contanter */
-.container{
-    height : 900px;
-    /* position: relative; */
-}
+
 
 /* footer */
 

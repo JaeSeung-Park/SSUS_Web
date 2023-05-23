@@ -2,3 +2,22 @@
     font-family: 'Noto Sans KR', sans-serif;
     color:#000;
 }
+
+.fs-midium{
+    font-size: 18px;
+}
+.fs-small{
+    font-size : 15px;
+}
+
+.fs-tiny{
+    font-size : 12px;
+}
+
+.fc-0066CC{
+    color : #0066CC;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
