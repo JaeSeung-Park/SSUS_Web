@@ -82,9 +82,35 @@
     width: 70px;
     margin-left: 20px;
 }
+#mf2{
+    background-color: #6CB8F8;
+}
+
+#mf3{
+    background-color: #239AFF;
+}
+#mf4{
+    background-color: #0084F3;
+}
+
+#mf5{
+    background-color: #0069C2;
+}
+
+#mf6{
+    background-color: #064A87;
+}
+
+#mf7{
+    background-color: #003155;
+}
+
+
+
 
 #CMP{
     margin-right: 0px;
+    background-color: #091D32;
 }
 
 .article_analysis{
