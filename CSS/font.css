@@ -3,6 +3,10 @@
     color:#000;
 }
 
+.fs-big{
+    font-size : 23px;
+}
+
 .fs-midium{
     font-size: 18px;
 }
@@ -18,6 +22,14 @@
     color : #0066CC;
 }
 
+.fc-1D71B8{
+    color:#1D71B8;
+}
+
 .fw-bold{
     font-weight: bold;
+}
+
+.fw-light{
+    font-weight:lighter;
 }

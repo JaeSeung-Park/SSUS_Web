@@ -20,19 +20,22 @@
 
 .reason .reason_button{
     position : absolute;
+    height:auto;
+    width:120px;
     right : 250px;
-    bottom : 120px;
+    bottom : 110px;
+    text-align: center;
+    padding: 1px 0 4px;
     background-color: #fff;
     border-radius: 5px;
 }
 
 .reason .reason_button a{
-    padding : 5px;
+    
 }
 
 .main{
     width: 1000px;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -298,24 +301,66 @@
     margin-top: 350px;
     position:relative;
     width :100%;
-    height:450px;
+    height:420px;
     background-color: #F1F1F1;
+    overflow-x : scroll;
+    border-bottom: 30px #F1F1F1 solid;
+}
+
+.qna::-webkit-scrollbar {
+    height:20px;
+}
+
+.qna::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    width:10%;
+    background: #ffffff;
+}
+
+.qna::-webkit-scrollbar-track {
+    background: -webkit-linear-gradient(90deg, #F1F1F1,#F1F1F1,#F1F1F1,#F1F1F1, #F1F1F1, #CDCDCD,#CDCDCD,#CDCDCD, #F1F1F1,#F1F1F1,#F1F1F1,#F1F1F1, #F1F1F1);
+    border-radius: 10px;
+}
+
+
+.qna_head{
+    float : left;
+    margin: 20px 0 0 200px;
 }
 
 .qna_list{
-   margin-top: 50px;
-   width:1500px;
-   margin-left: auto;
-   margin-right: auto;
-   /* overflow: scroll hidden; */
+    width : 1700px;
+    margin : 70px auto 0;
 }
 
 .qna_box{
     width: 250px;
     height: 250px;
-    background-color: #ffff;
+    background-color: #ffffff;
     float: left;
-    margin-right: 20px;
+    margin: 0 15px;
     border-radius: 19px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+.q{
+    height : 100px;
+    margin: 20px;
+    border-bottom: 3px #1D71B8 solid;
+}
+
+.q .q_sub{
+    margin-left: 22px;
+}
+
+.a{
+    height:100px;
+    margin: 20px;
+}
+
+
+.qna_more{
+    float : right;
+    margin: 20px 200px 0;
+}
+
