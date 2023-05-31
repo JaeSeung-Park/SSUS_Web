@@ -1,0 +1,14 @@
+.main_header{
+    position:relative;
+    width :100%;
+    height:160px;
+    background-color: skyblue
+}
+
+.main_header .main_header_box{
+    padding:30px 0 0;
+    margin:auto;
+    text-align: center;
+    width:200px;
+    height:100px;
+}
