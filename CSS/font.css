@@ -3,6 +3,10 @@
     color:#000;
 }
 
+.fs-huge{
+    font-size : 30px;
+}
+
 .fs-large{
     font-size : large;
 }
