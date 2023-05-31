@@ -6,7 +6,12 @@
     margin-right: auto;
     /* margin-top: 100px; */
 }
-
+.main2{
+    width: 100%;
+    background-color: #F8F8F8;
+    padding-left: auto;
+    padding-right: auto;
+}
 .main_header{
     /* position:relative; */
     width :100%;
@@ -80,6 +85,9 @@
     background-color: #F8F8F8;
     height: 1150px;
     margin-bottom: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team_side{
