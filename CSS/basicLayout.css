@@ -83,6 +83,12 @@ div{
     cursor : pointer;
 }
 
+.topic_fs-small{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
 /* contanter */
 
 
