@@ -1,5 +1,4 @@
 *{
-    /* background-color: #ffffff; */
     list-style: none;
     text-decoration: none;
     border-collapse: collapse;
@@ -84,6 +83,12 @@ div{
     cursor : pointer;
 }
 
+.topic_fs-small{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
 /* contanter */
 
 
@@ -92,6 +97,7 @@ div{
 .footer{
     display : flex;
     clear: both;
+    padding-top : 100px;
     /* position: relative; */
 }
 
