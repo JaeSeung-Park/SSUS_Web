@@ -1,5 +1,4 @@
 *{
-    /* background-color: #ffffff; */
     list-style: none;
     text-decoration: none;
     border-collapse: collapse;
@@ -92,6 +91,7 @@ div{
 .footer{
     display : flex;
     clear: both;
+    padding-top : 100px;
     /* position: relative; */
 }
 
