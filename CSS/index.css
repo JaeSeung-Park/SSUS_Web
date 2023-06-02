@@ -1,8 +1,3 @@
-.topic{
-    margin : 30px 0;
-    text-align: center;
-}
-
 .reason{
     position:relative;
     width :100%;
@@ -114,7 +109,6 @@
     height: 370px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .img_article{
@@ -122,7 +116,6 @@
     width: 400px;
     height: 320px;
     margin-top: 20px;
-
 }
 
 .article_list{
@@ -130,7 +123,6 @@
     width: 600px;
     height: 320px;
     margin-top: 20px;
-
 }
 
 .img_article_link{
@@ -210,6 +202,7 @@
 }
 
 .article_list_main_section{
+    display:block;
     margin-top: 22px;
     width: 580px;
     height: 46px;
@@ -233,19 +226,25 @@
     margin-top: 11px;
     margin-right: 15px;
 }
+
+.site_section{
+    position:relative;
+    display: flex;
+    width:100%;
+    margin-bottom:120px;
+}
+
 .lab{
+    flex:1;
     width: 500px;
     height: 280px;
-
-    float: left;
     margin-top: 40px;
 }
 
 .enterprise{
-    float: left;
+    flex:1;
     width: 500px;
     height: 280px;
-
     margin-top: 40px;
 }
 
@@ -284,25 +283,23 @@
     margin-top: 20px;
 }
 
-.qna_margin{
+.qna_section{
+    position: relative;
     background-color: #F1F1F1;
-    width:100%;
-    height:30px;
 }
 
 .qna_head{
-    position: relative;
-    top:35px;
-    margin-left:10px;
-    float:left;
-    z-index: 99;
+    position:relative;
+    padding-left:50%;
+    left:-540px;
+    bottom: -10px;
 }
 
 .qna{
-    position:relative;
+    position: relative;
     width :100%;
     height:400px;
-    background-color: #F1F1F1;
+    margin: 0 auto;
     overflow-x : scroll;
 }
 
@@ -312,7 +309,6 @@
 
 .qna::-webkit-scrollbar-thumb {
     border-radius: 100px;
-    
     width:10%;
     background: #ffffff;
 }
@@ -323,13 +319,16 @@
 }
 
 .qna_list{
+    position: relative;
     width : 3000px;
-    margin : 70px auto 0px;
+    margin : 50px auto;
+    padding-left:50%;
+    left:-540px;
 }
 
 .qna_box{
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     background-color: #ffffff;
     float: left;
     margin: 0 15px;
@@ -337,25 +336,46 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.q{
-    height : 100px;
-    margin: 20px;
-    border-bottom: 3px #1D71B8 solid;
+.question{
+    margin:30px 20px 0 20px;
+    padding: 0 10px;
+    width:220px;
+    height:109px;
+    border-bottom:2px solid #1D71B8
+}
+.question .q_title{
+
+}
+.question .q_context{
+    width:170px;
+    margin: 5px auto 0;
 }
 
-.q .q_sub{
-    margin-left: 22px;
+.answer{
+    margin:20px 20px 0 20px;
+    padding: 0 10px;
+    width:220px;
+    height:110px;
 }
 
-.a{
-    height:100px;
-    margin: 20px;
+.answer .a_title{
+    float:left;
+    height:95px;
+}
+
+.answer .a_context{
+    float:left;
+    width:190px;
+    padding-top:3px;
+    margin-left:10px;
+    height:95px;
 }
 
 .qna_more{
     position:relative;
-    float:right;
-    top: -55px;
-    margin-right:10px;
+    width:50px;
+    margin-left:50%;
+    left:490px;
+    top:-50px;
 }
 

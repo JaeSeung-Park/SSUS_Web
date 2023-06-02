@@ -8,28 +8,29 @@
 }
 
 .fs-huge{
-    font-size : 30px;
+    font-size : 48px;
+    font-weight: 900;
 }
 
 .fs-large{
-    font-size : large;
+    font-size : 29px;
+    font-weight: bold;
 }
 
 .fs-big{
     font-size : 23px;
 }
 
-.fs-21{
-    font-size : 21px;
-}
-
 .fs-midium{
-    font-size: 18px;
-}
-.fs-small{
-    font-size : 15px;
+    font-size: 21px;
 }
 
+.fs-small{
+    font-size : 18px;
+}
+.fs-14{
+    font-size:14px;
+}
 .fs-tiny{
     font-size : 12px;
 }
@@ -42,10 +43,17 @@
     color:#1D71B8;
 }
 
+.fw-black{
+    font-weight:900;
+}
+
+.fw-normal{
+    font-weight:400;
+}
+
 .fw-bold{
     font-weight: bold;
 }
-
 .fw-light{
     font-weight:lighter;
 }
