@@ -26,17 +26,26 @@
 }
 
 .main{
-    width: 1000px;
+    width: 1180px;
     margin-left: auto;
     margin-right: auto;
+
+}
+.section_head{
+    margin-bottom: 28.8px;
+}
+
+.triangle{
+height: 16px;
+    margin-right: 5px;
 }
 
 .manufacturing{
-    margin-top: 40px;
+    margin-top: 86.6px;
     width: 100%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    overflow: auto;
+    /* height: 200px; */
 }
 
 .mf_list{
@@ -44,23 +53,23 @@
 }
 
 .mf_section{
-    width: 110px;
-    height: 146px;
-    background-color: #9BCEFA;
+    width: 130px;
+    height: 172.3px;
+    background-color:#9BCEFA;
     float: left;
-    margin-right: 17px;
+    margin-right: 20px;
     border-radius: 8px;
 }
 
 .mf_link{
-    width: 100px;
-    height: 133px;
+    width: 117.5px;
+    height: 155.7px;
 }
 
 .mf_img{
-    width: 90px;
+    width: 105.2px;
     display: block;
-    margin: 10px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,7 +81,8 @@
     background-color: #fff;
     border-radius: 8px;
     width: 70px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #mf2{
@@ -104,45 +114,41 @@
 }
 
 .article_analysis{
-    margin-top: 40px;
+    margin-top: 86.6px;
     width: 100%;
-    height: 370px;
-    margin-left: auto;
-    margin-right: auto;
+    overflow: auto;
+    /* height: 370px; */
 }
 
 .img_article{
     float: left;
-    width: 400px;
-    height: 320px;
-    margin-top: 20px;
+    width: 480px;
+    /*  */
 }
 
 .article_list{
     float: left;
-    width: 600px;
-    height: 320px;
-    margin-top: 20px;
+    width: 680px;
+    margin-left: 20px;
 }
 
 .img_article_link{
     display: block;
     border: none;
-    width: 380px;
-    height: 268px;
+    width: 480px;
+    height: 338.8px;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: darkblue;
 }
 
 .img_article_text{
     color: #fff;
     display: block;
-    width: 250px;
+    width: 300px;
     text-align: left;
-    margin-top: 180px;
-    margin-left: 10px;
+    margin-top: 190px;
+    margin-left: 30px;
+    background-color: none;
 }
 
 .more{
@@ -154,8 +160,6 @@
 .article_list_main{
     height: 268px;
     width: 580px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .month_btn{
@@ -164,8 +168,8 @@
     border: none;
     margin: -1;
     padding: 0;
-    width: 193.3px;
-    height: 63px;
+    width: 226px;
+    height: 80px;
     background-color: #fff;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -179,8 +183,8 @@
     border: none;
     margin: -1;
     padding: 0;
-    width: 193.3px;
-    height: 63px;
+    width: 226px;
+    height: 80px;
     background-color: #fff;
     font-size: large;
     box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.25);
@@ -191,8 +195,8 @@
     border: none;
     margin: -1;
     padding: 0;
-    width: 193.3px;
-    height: 63px;
+    width: 226px;
+    height: 80px;
     color: #fff;
     font-size: large;
     border-bottom-right-radius: 10px;
@@ -203,9 +207,9 @@
 
 .article_list_main_section{
     display:block;
-    margin-top: 22px;
-    width: 580px;
-    height: 46px;
+    margin-top: 24.9px;
+    width: 678px;
+    height: 59.3px;
     border-radius: 10px;
     background-color: #fff;
     border: 1px solid #C0C0C0;
@@ -215,15 +219,17 @@
 .article_text{
     display: block;
     float: left;
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 
 .article_date{
+    font-size: 15px;
+    font-weight: 400px;
     display: block;
     float: right;
     color: #878787;
-    margin-top: 11px;
+    margin-top: 18px;
     margin-right: 15px;
 }
 
@@ -231,44 +237,50 @@
     position:relative;
     display: flex;
     width:100%;
-    margin-bottom:120px;
+    margin-top: 86.6px;
+    overflow: auto;
+    /* margin-bottom:120px; */
 }
 
 .lab{
     flex:1;
-    width: 500px;
-    height: 280px;
-    margin-top: 40px;
+    width: 580px;
+    /* height: 280px; */
+    /* margin-top: 40px; */
 }
 
 .enterprise{
     flex:1;
-    width: 500px;
-    height: 280px;
-    margin-top: 40px;
+    width: 580px;
+    /* height: 280px; */
+    /* margin-top: 40px; */
+    margin-left: 20px;
 }
 
 .lab_img{
-    margin-top: 20px;
     float: left;
-    width: 200px;
+    width: 152.5px;
     display: block;
     background-color: #00559D;
 }
 
 .lab_main{
     float: left;
-    width: 260px;
-    margin-left: 20px;
+    width: 427px;
 }
 
 .lab_name{
-    margin-top: 40px;
+    width: 427px;
+    margin-top: 14.4px;
     margin-bottom: 10px;
+    text-align: center;
 
 }
 
 .lab_ins{
+    display: block;
+    width: 240px;
+    margin-left: 93.5px;
     text-align: justify;
 }
 
@@ -281,9 +293,11 @@
     border-radius: 14px;
     float: right;
     margin-top: 20px;
+    margin-right: 40px;
 }
 
 .qna_section{
+    margin-top: 115.5px;
     position: relative;
     background-color: #F1F1F1;
 }
