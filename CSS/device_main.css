@@ -1,19 +1,19 @@
 .main{
-    width: 1000px;
+    width: 1180px;
     height: 2000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .main_header{
-    height:160px;
+    height:180px;
     width: 100%;
     position: relative;
     background-color: skyblue
 }
 
 .main_header .main_header_box{
-    padding:50px 0 0;
+    padding:60px 0 0;
     margin:auto;
     text-align: center;
     width:200px;
@@ -21,125 +21,125 @@
 }
 
 .explanation{
-    width: 730px;
+    width: 780px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 .device_images_background{
-    height:500px;
-    width:1000px;
-    margin-top: 70px;
+    height:630px;
+    width:100%;
+    margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F1F1F1
+    background-color: #F5F5F5;
 }
 
 .device_images{
     margin-left: auto;
     margin-right: auto;
-    padding-top: 75px;
-    height: 350px;
-    width: 700px;
+    padding-top: 60px;
+    height: 510px;
+    width: 980px;
 }
 
 .left_arrow{
-    width: 50px;
+    width: 80px;
     height: 100px;
-    margin-top:125px;
+    margin-top:205px;
     background-color: red;
     float: left;
 }
 
 .right_arrow{
-    width: 50px;
+    width: 80px;
     height: 100px;
-    margin-top:125px;
+    margin-top:205px;
     background-color: red;
     float: left;
 }
 
 .device_icons{
     float:left;
-    width: 500px;
-    height: 350px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: chartreuse;
+    width: 580px;
+    height: 510px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #F5F5F5;
 }
 
 .device_icon_1{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_2{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_3{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_4{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_5{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_6{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     background-color: blue;
 }
 
 .device_icon_7{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
     background-color: blue;
 }
 
 .device_icon_8{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 80px;
+    margin-right: 80px;
     background-color: blue;
 }
 
 .device_icon_9{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 140px;
     float:left;
     background-color: blue;
 }
