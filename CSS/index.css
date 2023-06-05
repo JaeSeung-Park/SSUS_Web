@@ -305,14 +305,14 @@ height: 16px;
 .qna_head{
     position:relative;
     padding-left:50%;
-    left:-540px;
-    bottom: -10px;
+    left:-590px;
+    bottom: -28.9px;
 }
 
 .qna{
     position: relative;
     width :100%;
-    height:400px;
+    height:548.6px;
     margin: 0 auto;
     overflow-x : scroll;
 }
@@ -335,17 +335,17 @@ height: 16px;
 .qna_list{
     position: relative;
     width : 3000px;
-    margin : 50px auto;
+    margin-top : 80px;
     padding-left:50%;
-    left:-540px;
+    left:-600px;
 }
 
 .qna_box{
-    width: 280px;
-    height: 280px;
+    width: 272.4px;
+    height: 259.9px;
     background-color: #ffffff;
     float: left;
-    margin: 0 15px;
+    margin: 0 10px;
     border-radius: 19px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -353,8 +353,8 @@ height: 16px;
 .question{
     margin:30px 20px 0 20px;
     padding: 0 10px;
-    width:220px;
-    height:109px;
+    width:212.4px;
+    height:99px;
     border-bottom:2px solid #1D71B8
 }
 .question .q_title{
@@ -362,24 +362,24 @@ height: 16px;
 }
 .question .q_context{
     width:170px;
-    margin: 5px auto 0;
+    margin: 5px auto 0 auto;
 }
 
 .answer{
-    margin:20px 20px 0 20px;
+    margin:10px 20px 0 20px;
     padding: 0 10px;
-    width:220px;
-    height:110px;
+    width:212.4px;
+    height:99px;
 }
 
 .answer .a_title{
     float:left;
-    height:95px;
+    height:99px;
 }
 
 .answer .a_context{
     float:left;
-    width:190px;
+    width:170px;
     padding-top:3px;
     margin-left:10px;
     height:95px;
@@ -389,7 +389,7 @@ height: 16px;
     position:relative;
     width:50px;
     margin-left:50%;
-    left:490px;
-    top:-50px;
+    left:540px;
+    /* top:-50px; */
 }
 
