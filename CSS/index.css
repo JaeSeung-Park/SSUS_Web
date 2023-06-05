@@ -1,14 +1,16 @@
 .reason{
     position:relative;
     width :100%;
+    min-width: 1180px;
     height:391px;
     background-color: skyblue
 }
 
 .reason .reason_box{
-    position:absolute;
-    right:250px;
-    bottom:100px;
+    margin-top:200px;
+    float:right;
+    width:600px;
+    text-align: right;
 }
 
 .reason .reason_text{
@@ -17,10 +19,13 @@
 }
 
 .reason .reason_button{
-    height:auto;
-    width:120px;
-    text-align: center;
-    padding: 1px 0 4px;
+    display:flex;
+    width:180px;
+    height:38px;
+    float: right;
+    margin-top: 5px;
+    justify-content: center;
+    align-items : center;
     background-color: #fff;
     border-radius: 5px;
 }
@@ -302,7 +307,9 @@ height: 16px;
 }
 
 .qna_section{
-    margin-top: 115.5px;
+    width:100%;
+    min-width: 1180px;
+    margin-top: 120px;
     position: relative;
     background-color: #F1F1F1;
 }
@@ -311,13 +318,13 @@ height: 16px;
     position:relative;
     padding-left:50%;
     left:-590px;
-    bottom: -28.9px;
+    bottom:-30px;
 }
 
 .qna{
     position: relative;
     width :100%;
-    height:548.6px;
+    height:507.6px;
     margin: 0 auto;
     overflow-x : scroll;
 }
@@ -340,14 +347,14 @@ height: 16px;
 .qna_list{
     position: relative;
     width : 3000px;
-    margin-top : 80px;
+    margin-top : 90px;
     padding-left:50%;
     left:-600px;
 }
 
 .qna_box{
-    width: 272.4px;
-    height: 259.9px;
+    width: 283px;
+    height: 270px;
     background-color: #ffffff;
     float: left;
     margin: 0 10px;
@@ -358,43 +365,42 @@ height: 16px;
 .question{
     margin:30px 20px 0 20px;
     padding: 0 10px;
-    width:212.4px;
-    height:99px;
+    width:223px;
+    height:104px;
     border-bottom:2px solid #1D71B8
 }
-.question .q_title{
 
-}
 .question .q_context{
-    width:170px;
+    width:180px;
     margin: 5px auto 0 auto;
 }
 
 .answer{
     margin:10px 20px 0 20px;
     padding: 0 10px;
-    width:212.4px;
-    height:99px;
+    width:223px;
+    height:104px;
 }
 
 .answer .a_title{
     float:left;
-    height:99px;
+    height:104px;
 }
 
 .answer .a_context{
     float:left;
-    width:170px;
+    width:190px;
     padding-top:3px;
-    margin-left:10px;
-    height:95px;
+    margin-left:7px;
+    height:104px;
 }
 
 .qna_more{
     position:relative;
     width:50px;
+    height:40px;
     margin-left:50%;
     left:540px;
-    /* top:-50px; */
+    top:-100px;
 }
 

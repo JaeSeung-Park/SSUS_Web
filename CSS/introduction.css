@@ -8,6 +8,7 @@
 }
 .main2{
     width: 100%;
+    min-width: 1180px;
     background-color: #F8F8F8;
     padding-left: auto;
     padding-right: auto;

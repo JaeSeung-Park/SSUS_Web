@@ -14,7 +14,7 @@ body{
 
 wrap{
     overflow: hidden;
-    min-width: 1190px;
+    min-width: 1180px;
 }
 
 
@@ -31,7 +31,7 @@ header .logo_main{
 }
 
 header .nav_bar{
-    width:700px;
+    width:780px;
     margin:30px auto;
 }
 
@@ -41,11 +41,11 @@ header .nav_list{
 
 header .nav_list_item{
     flex:1;
-    width: 140px;
+    width: 156px;
 }
 
 header .nav_list_item:not(:first-child){
-    padding-left: 120px;
+    padding-left: 140px;
 }
 
 header .nav_list_item :hover{
@@ -54,8 +54,8 @@ header .nav_list_item :hover{
 
 header .search_bar{
     position: relative;
-    width:630px;
-    height: 44px;
+    width:722px;
+    height: 43px;
     background: #F7F7F7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 54px;
@@ -67,7 +67,7 @@ header .search_bar input{
     left:20px;
     top:7px;
     height:30px;
-    width: 550px;
+    width: 650px;
     background-color: #F7F7F7;
     border:none;
 }
@@ -94,15 +94,15 @@ header .topic{
 /* footer */
 
 footer{
-    width:1080px;
-    height:240px;
+    width:1180px;
+    height:400px;
     margin:0 auto;
     display:flex;
 }
 
 footer .info{
     flex : 1;
-    padding-top: 120px;
+    padding-top: 180px;
 }
 
 footer .info_item{
@@ -112,9 +112,10 @@ footer .info_item{
 
 footer .more{
     display:flex;
+    width: 278px;
     flex:1;
-    padding-top: 120px;
-    margin-left: 100px;
+    padding-top: 180px;
+    margin-left: 40px;
 }
 
 footer .more_item{
@@ -122,10 +123,11 @@ footer .more_item{
 }
 
 footer .SNS{
+    width: 271px;
     flex:1;
 }
 
 footer .SNS li{
     float:left;
-    margin-right:20px;
+    margin-right:50px;
 }

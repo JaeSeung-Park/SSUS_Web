@@ -8,6 +8,7 @@
 .main_header{
     height:180px;
     width: 100%;
+    min-width: 1180px;
     position: relative;
     background-color: skyblue
 }
