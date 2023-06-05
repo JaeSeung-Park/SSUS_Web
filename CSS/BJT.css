@@ -20,20 +20,38 @@
     height:100px;
 }
 
-.explanation{
-    width: 780px;
+.device_icon{
+    height:120px;
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
+    background-color: aqua;
 }
 
-.device_images_background{
-    height:630px;
-    width:100%;
-    margin-top: 120px;
+.device_image{
+    height:360px;
+    width:580px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     background-color: #F5F5F5;
+}
+
+.device_steps{
+    height: 180px;
+    width: 420px;
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+}
+
+.explanation{
+    width: 780px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .device_images{
