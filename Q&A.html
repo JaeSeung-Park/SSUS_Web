@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="CSS/Q&A.css">
         <link rel="stylesheet" type="text/css" href="CSS/basicLayout.css">
         <link rel="stylesheet" type="text/css" href="CSS/font.css">
+        <script src="JS/Q&A.js" defer></script>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -36,11 +37,31 @@
                 <div class="topic fs-small"><a>삼성 파트너 기업 수백억 적자 이유는?</a></div>
             </header>
             <div class="main">
-                <div class="main_title">
-                    <h1 class="fc-0066CC fp-center">Q&A</h1>
+                <div class="main_header">
+                    <div class="main_header_box_title">
+                        <p class="fs-huge">Q&A</p>
+                    </div>
+                </div>
+                
+                <div class="option_section">
+                    <select class="category_sel">
+                        <option>전체 카테고리</option>
+                        <option>공정</option>
+                        <option>소자</option>
+                        <option>업계</option>
+                    </select>
+
+                    <select class="sort_sel">
+                        <option>최신순</option>
+                        <option>오래된순</option>
+                        <option>조회순</option>
+                    </select>
+                    
+                    <button type="button" class="write_btn" onclick="alert('로그인 해주세요')">글쓰기</button>
                 </div>
 
                 <div class="table_section">
+
                     <table>
                         <tbody>
                             <tr>
@@ -133,8 +154,34 @@
                             </a>
                         </tbody>
                     </table>
+
+                    <div class="table_num">
+                        <ul>
+                            <li class="select_num clicked">1</li>
+                            <li class="select_num">2</li>
+                            <li class="select_num">3</li>
+                        </ul>
+                    </div>
+
+                    <div class="search_zone">
+                        <select>
+                            <option>전체 카테고리</option>
+                            <option>공정</option>
+                            <option>소자</option>
+                            <option>업계</option>
+                        </select>
+                        
+                        <div>
+
+                        </div>
+
+                        <button type="button">
+                            검색
+                        </button>
+
+                    </div>
                 </div>
-        
+                
         
             </div>
     
