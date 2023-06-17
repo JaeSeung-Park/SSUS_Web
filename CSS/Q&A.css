@@ -4,27 +4,17 @@
 }
 
 .main_header{
-    position:relative;
     width :100%;
     min-width: 1180px;
-    height:219px;
-    background-color: skyblue
+    height:179px;
+    background-color: skyblue;
 }
 
 .main_header .main_header_box_title{
-    padding-top:60px;
+    padding-top:45px;
     margin:0 auto;
     text-align: center;
     width:167px;
-    height:81px;
-}
-
-.main_header_box_context{
-    padding-top:13px;
-    margin:0 auto;
-    text-align: center;
-    width:280px;
-    height:53px;
 }
 
 .option_section{

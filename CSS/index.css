@@ -1,7 +1,6 @@
 .reason{
     position:relative;
     width :100%;
-    min-width: 1180px;
     height:391px;
     background-color: skyblue
 }
@@ -11,6 +10,7 @@
     float:right;
     width:600px;
     text-align: right;
+    margin-right: 100px;
 }
 
 .reason .reason_text{
@@ -32,6 +32,7 @@
 
 .main{
     width: 1180px;
+    min-width: 1180px;
     margin-left: auto;
     margin-right: auto;
 
@@ -121,18 +122,17 @@ height: 16px;
 .article_analysis{
     margin-top: 86.6px;
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     /* height: 370px; */
 }
 
 .img_article{
-    float: left;
+    float:left;
     width: 480px;
-    /*  */
 }
 
 .article_list{
-    float: left;
+    float:right;
     width: 680px;
     margin-left: 20px;
 }
@@ -403,4 +403,3 @@ height: 16px;
     left:540px;
     top:-100px;
 }
-
