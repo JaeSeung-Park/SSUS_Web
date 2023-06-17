@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>main page</title>
+        <link rel="stylesheet" type="text/css" href="CSS/device_DRAM.css">
+        <link rel="stylesheet" type="text/css" href="CSS/basicLayout.css">
+        <link rel="stylesheet" type="text/css" href="CSS/font.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <wrap>
+            <header>
+                <div class="logo_main">
+                    <a href="index.html">
+                        <img src="Images/main_logo.png" alt="main_logo" width="117" height="71">
+                    </a>
+                </div>
+                <div class="nav_bar">
+                    <div class="nav_list fs-midium">
+                        <div class="nav_list_item"><a href="introduction.html">SSUS</a></div>
+                        <div class="nav_list_item"><a href="manufacturing.html">공정</a></div>
+                        <div class="nav_list_item"><a href="device_main.html">소자</a></div>
+                        <div class="nav_list_item"><a href="#a">업계</a></div>
+                        <div class="nav_list_item"><a href="Q&A.html">Q&A</a></div>
+                    </div>
+                </div>
+                <div class="search_bar">
+                        <input class="fs-midium">
+                        <div class="search">
+                            <a href="#a">
+                                <image src="Images/search_ic.png" alt="1" width="25px" height="25px">
+                            </a>
+                        </div>
+                </div>
+                <div class="topic fs-small"><a>삼성 파트너 기업 수백억 적자 이유는?</a></div>
+            </header>
+
+            <div class="main">
+                <div class="main_header">
+                    <div class="main_header_box_title">
+                        <p class="fs-huge fc-white">DRAM</p>
+                    </div>
+                    <div class="main_header_box_context">
+                        <p class="fs-midium fc-white fo-5">DRAM(Dynamic Random Access Memory)</p>
+                    </div>
+
+                    <div class="contents">
+                        <div class="main_header_contents">
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fs-white">I. DRAM의 구조</p>
+                            </div>
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fc-white fo-5">II. DRAM과 Data</p>
+                            </div>
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fc-white fo-5">III. DRAM capacitor</p>
+                            </div>
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fc-white fo-5">IV. DRAM 공정</p>
+                            </div>
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fc-white fo-5">V. DRAM transistor 공정</p>
+                            </div> 
+                            <div class="main_header_content">
+                                <p class="fs-large fw-bold fc-white fo-5">VI. DRAM capacitor 공정</p>
+                            </div>                                         
+                        </div>
+                        <div class="main_header_sub_contents">
+                            <div class="main_header_sub_content">
+                                <p class="fs-big fw-300 fc-white">i.DRAM 란?</p>
+                            </div>
+                            <div class="main_header_sub_content">
+                                <p class="fs-big fw-300 fc-white fo-5">ii.DRAM의 구조</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contexts">
+                    <p class="head1">I .DRAM 란?</p>
+                    <p class="subhead">ⅰ.DRAM 란?</p>
+                    <p class="subhead">ⅱ.DRAM의 구조</p>
+                    <p class="head2 tab1"><img src="Images/Ellipse 68.png" class ="head1_bullet">DRAM(Dynamic Ramdom Access Memory) 란?</p>
+                    <p class="main_text tab2">- 트랜지스터 1개와 커패시터 1개로 구성 → D램에서 1개 셀을 구성하는 회로(DRAM의 50~60%를 구성)</p>
+                    <p class="main_text tab2">- 정보를 랜덤하게 읽으므로 데이터의 읽기/쓰기 속도가 매우 빠른 특성을 가진다.</p>
+                    <p class="main_text tab2">- 컴퓨터나 모바일 기기에서 CPU의 연산을 돕는 고속 메모리로 사용된다.</p>
+                    <p class="head2 tab1"><img src="Images/Ellipse 68.png" class ="head1_bullet">DRAM의 구조</p>
+                    <div class="back_diff">
+                        <p class="head3 tab2">1) Lithography</p>
+                        <p class="main_text tab2">- 데이터를 저장하는 메모리 소자</p>
+                        <p class="main_text tab2">- 전하의 저장 유무에 따라 데이터 0과 1을 저장하는 메모리 소자 </p>
+                        <p class="head3 tab2">2) Acess Transistor</p>
+                        <p class="main_text tab2">- Capacitor에 연결되어 데이터를 읽고 쓰는 역할을 한다. </p>
+                        <p class="head3 tab2">3) Word Line(WL)</p>
+                        <p class="main_text tab2">- 트랜지스터 게이트 전극에 연결된 도선으로 트랜지스터에 on/off 를 명령한다.<br>
+                        ->capacitor에 접근 여부를 결정</p>
+                        <p class="head3 tab2">4) Bit Line(BL)</p>
+                        <p class="main_text tab2">- 트랜지스터 소스(드레인) 전극에 연결된 도선으로 capacitor에 저장된 데이터를 
+                            읽고 쓰는 역할을 한다.</p>
+                    </div>
+
+                    <p class="head2 tab1"><img src="Images/Ellipse 68.png" class ="head1_bullet">DRAM 1개 cell의 구조</p>
+                    <div class="back_diff">
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <footer>
+                <div class="info">
+                    <div><span class="fs-big">SSUS</span></div>
+                    <div class="info_bar">
+                        <div class="info_item">
+                            <a href="#a">문의하기</a>
+                        </div>
+                        <div class="info_item">
+                            <a href="#a">공지사항</a>
+                        </div>
+                        <div class="info_item">
+                            <a href="#a">서비스이용약관</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="more">
+                    <div class="more_item">
+                        <string class="fs-small fc-0066CC">
+                            더 많은 소식을 접하고 싶다면?
+                        </strong>
+                    </div>
+                    <ul class="SNS">
+                        <li><a href="#a" class="fs-small fc-0066CC">페</a></li>
+                        <li><a href="#a" class="fs-small fc-0066CC">유</a></li>
+                        <li><a href="#a" class="fs-small fc-0066CC">트</a></li>
+                        <li><a href="#a" class="fs-small fc-0066CC">인</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </wrap>
+    </body>
+</html>

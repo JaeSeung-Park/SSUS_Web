@@ -1,27 +1,32 @@
-.main_header{
-    height:auto;
+.main{
     width: 1180px;
+    min-width: 1180px;
     margin: 0 auto;
+}
+
+.main_header{
+    width: 100%;
+    height: 679px;
     position: relative;
     background-color: #1A2330;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.40);
-	padding-bottom: 45px;
 }
 
-.main_header .main_header_box{
-    padding:45px 0 0;
-    margin:auto;
+.main_header .main_header_box_title{
+    padding-top:45px;
+    margin:0 auto;
     text-align: center;
-    width:500px;
-    height:auto;
+}
+
+.main_header_box_context{
+    margin:20px auto 0;
+    text-align: center;
 }
 
 .contents{
-    margin-top:60px;
+    margin-top:75px;
     width:1180px;
 	overflow:hidden;
-    /* height:auto; */
-    /* background-color: blue; */
 }
 
 .main_header_contents{
@@ -31,57 +36,25 @@
     float: left;
 }
 
-.main_header_contents1{
-    height: 40px;
-}
-
-.main_header_contents2{
-    height: 40px;
-}
-
-.main_header_contents3{
-    height: 40px;
-}
-
-.main_header_contents4{
-    height: 40px;
-}
-
-.main_header_contents5{
-    height: 40px;
-}
-
-.main_header_contents6{
-    height: 40px;
+.main_header_content{
+    height: 50px;
 }
 
 .main_header_sub_contents{
-    /* margin-left: 420px; */
     height:auto;
     width: 300px;
     float: left;
     margin-top:20px;
 }
 
-.main_header_sub_contents1{
-   height: 30px; 
+.main_header_sub_content{
+    height: 34px;
 }
 
-.main_header_sub_contents2{
-    height: 30px; 
- } 
-
- .main{
-	 margin-top: 120px;
-	 margin-left: auto;
-	 margin-right: auto;
-	 width: 980px;
-
-	 height: auto;
-	 padding-right: 100px;
-	 padding-left: 100px;
- }
-
+.contexts{
+    margin-top: 120px;
+    padding: 0 100px;
+}
 
  .tab1{
 	margin-left: 70px;
@@ -95,6 +68,7 @@
 	margin-bottom:4px;
 	margin-right: 8px;
 }
+
  .head1{
 	font-weight: 700;
 	font-size: 29px;
@@ -132,4 +106,9 @@
 	line-height: 26px;
 	padding-left: 20px;
 	margin-bottom: 15px;
+ }
+
+ .back_diff{
+    background-color: #F5F5F5;
+    padding: 15px;
  }

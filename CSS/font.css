@@ -68,6 +68,10 @@
     color: #fff;
 }
 
+.fc-CDCDCD{
+    color:#CDCDCD;
+}
+
 .fw-900{
     font-weight:900;
 }
@@ -102,4 +106,8 @@
 
 .fs-white{
     color: #fff;
+}
+
+.fo-5{
+    opacity: 0.5
 }
