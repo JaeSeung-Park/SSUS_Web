@@ -12,6 +12,7 @@
     margin-right: auto;
     position: relative;
     background-color: #1A2330;
+    box-shadow : 5px 5px 5px 5px black;
 }
 
 .main_header .main_header_box{
