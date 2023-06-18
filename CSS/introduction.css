@@ -1,11 +1,8 @@
 .main{
     width: 1180px;
-    /* height: 900px; */
-    /* background-color: aqua; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+    margin: 150px auto 0;
 }
+
 .main2{
     width: 100%;
     min-width: 1180px;
@@ -14,19 +11,27 @@
     padding-right: auto;
     margin-top: 75px;
 }
+
 .main_header{
-    position:relative;
-    width :100%;
-    height:160px;
-    background-color: skyblue
+    width :1180px;
+    min-width: 1180px;
+    height:179px;
+    background-color: #1A2330;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main_header .main_header_box{
-    padding:30px 0 0;
+.main_header .main_header_box_title{
+    padding-top:45px;
     margin:0 auto;
     text-align: center;
-    width:300px;
-    height:100px;
+    width:167px;
+}
+
+.main_header_box_context{
+    margin:5px auto 0;
+    text-align: center;
+    width:400px;
 }
 
 .significance{

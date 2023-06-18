@@ -6,19 +6,25 @@
 }
 
 .main_header{
-    height:180px;
-    width: 100%;
+    width :1180px;
     min-width: 1180px;
-    position: relative;
-    background-color: skyblue
+    height:179px;
+    background-color: #1A2330;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main_header .main_header_box{
-    padding:45px 0 0;
-    margin:auto;
+.main_header .main_header_box_title{
+    padding-top:45px;
+    margin:0 auto;
     text-align: center;
-    width:200px;
-    height:100px;
+    width:167px;
+}
+
+.main_header_box_context{
+    margin:5px auto 0;
+    text-align: center;
+    width:400px;
 }
 
 .explanation{
