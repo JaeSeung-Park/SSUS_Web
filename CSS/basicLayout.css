@@ -131,25 +131,3 @@ footer .SNS li{
     float:left;
     margin-right:50px;
 }
-
-.main_header{
-    width :1180px;
-    min-width: 1180px;
-    height:179px;
-    background-color: #1A2330;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main_header .main_header_box_title{
-    padding-top:45px;
-    margin:0 auto;
-    text-align: center;
-    width:167px;
-}
-
-.main_header_box_context{
-    margin:5px auto 0;
-    text-align: center;
-    width:400px;
-}
