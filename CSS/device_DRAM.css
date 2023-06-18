@@ -4,21 +4,21 @@
     margin: 0 auto;
 }
 
-.main_header{
+.main_header1{
     width: 100%;
-    height: 679px;
+    height: 570px;
     position: relative;
     background-color: #1A2330;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.40);
 }
 
-.main_header .main_header_box_title{
+.main_header_box_title1{
     padding-top:45px;
     margin:0 auto;
     text-align: center;
 }
 
-.main_header_box_context{
+.main_header_box_context1{
     margin:20px auto 0;
     text-align: center;
 }
