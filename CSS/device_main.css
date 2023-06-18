@@ -49,6 +49,7 @@
     padding-top: 60px;
     height: 510px;
     width: 980px;
+    background-color: #F5F5F5;
 }
 
 .left_arrow{
@@ -67,6 +68,33 @@
     float: left;
 }
 
+.device_icon_circle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+}
+
+.device_icon_circle_image{
+    width: 70px;
+    height: 70px;
+    padding-top:13px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+}
+
+.device_name{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2px;
+    text-align: center;
+}
+
 .device_icons{
     float:left;
     width: 580px;
@@ -81,7 +109,8 @@
     width: 140px;
     float:left;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .device_icon_2{
@@ -91,7 +120,8 @@
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .device_icon_3{
@@ -99,7 +129,8 @@
     width: 140px;
     float:left;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .device_icon_4{
@@ -107,7 +138,8 @@
     width: 140px;
     float:left;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .device_icon_5{
@@ -117,7 +149,8 @@
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color:white;
+    border-radius: 5px;
 }
 
 .device_icon_6{
@@ -125,14 +158,16 @@
     width: 140px;
     float:left;
     margin-bottom: 30px;
-    background-color: blue;
+    background-color:white;
+    border-radius: 5px;
 }
 
 .device_icon_7{
     height:150px;
     width: 140px;
     float:left;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .device_icon_8{
@@ -141,12 +176,14 @@
     float:left;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: blue;
+    background-color:white;
+    border-radius: 5px;
 }
 
 .device_icon_9{
     height:150px;
     width: 140px;
     float:left;
-    background-color: blue;
+    background-color: white;
+    border-radius: 5px;
 }
