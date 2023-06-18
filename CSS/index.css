@@ -315,10 +315,9 @@ height: 16px;
 }
 
 .qna_head{
-    position:relative;
-    padding-left:50%;
-    left:-590px;
-    bottom:-30px;
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 .qna{
@@ -346,7 +345,7 @@ height: 16px;
 
 .qna_list{
     position: relative;
-    width : 3000px;
+    width : 2500px;
     margin-top : 90px;
     padding-left:50%;
     left:-600px;
