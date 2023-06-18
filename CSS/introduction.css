@@ -166,6 +166,8 @@
     margin-right: auto;
     display: block;
     margin-bottom: 37.5px;
+    background-image: url("../Images/Artboard 1@3x.png");
+    background-size: contain;
 }
 
 .profile_name{
