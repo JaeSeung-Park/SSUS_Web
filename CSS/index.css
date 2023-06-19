@@ -387,8 +387,9 @@ height: 16px;
 
 .question .q_context{
     width:180px;
-    margin: 5px auto 0 auto;
+    margin: 5px auto 0;
     word-break: break-all;
+    overflow: hidden;
 }
 
 .answer{
